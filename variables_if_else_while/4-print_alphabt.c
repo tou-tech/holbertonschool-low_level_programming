@@ -1,24 +1,22 @@
 #include <stdio.h>
 
 /**
-* main - Point d'entré
-*
-*Description: exclure les lettres 'q' et 'e'
-*
-*Return: Toujours 0 (Succès)
-*/
+ * main - Point d'entrée
+ *
+ * Return: Toujours 0 (Succès)
+ */
 int main(void)
 {
-	char letter;
+	char ch;
 
-	for (letter = 'a'; la <= 'z'; la++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (la != 'e' && la != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(la);
+			putchar(ch);
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
-

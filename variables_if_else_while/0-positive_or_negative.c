@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Point d'entrée du programme
+ * main - Entry point
  *
- * Return: Toujours 0 (Succès)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

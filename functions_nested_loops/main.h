@@ -15,6 +15,11 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_98(int n);
+int sum_to_n(int n);
+int main(void);
+void print_table(int size);
+int _isupper(int c);
+int _putchar(char c);
 
 #endif
 

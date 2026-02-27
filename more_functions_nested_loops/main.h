@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
-int _isdigit(int c); /* Un simple prototype se termine par un point-virgule */
+int _isdigit(int c);
+int mul(int a, int b); /* Le prototype manquant est ici ! */
 
 #endif
